@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this checkpoint, we work on the **Financial Inclusion in Africa** dataset provided by the Zindi platform.
+In this project, we work on the **Financial Inclusion in Africa** dataset provided by the Zindi platform.
 
 The dataset contains demographic information and financial service usage data for approximately **33,600 individuals** across East Africa.
 
