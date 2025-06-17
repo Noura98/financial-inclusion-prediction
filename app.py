@@ -3,7 +3,6 @@ import pandas as pd
 import joblib
 from utils.preprocessing import preprocess_input  # your custom preprocessing
 import gdown
-import zipfile
 import os
 import numpy as np
 import joblib
@@ -15,9 +14,6 @@ def preprocess_cached(df):
 @st.cache_resource
 def load_model():
     model_path = 'model/financial_model.pkl'
-
-
-
     # Load the model
     return joblib.load(model_path)
 

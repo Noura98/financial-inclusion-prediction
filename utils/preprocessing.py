@@ -33,9 +33,9 @@ def preprocess_input(df):
     df = df.copy()
 
     # 2.2 Create a Profiling Report
-    '''profile = ProfileReport(df, title="Financial inclusion Profiling Report", explorative=True)
+    profile = ProfileReport(df, title="Financial inclusion Profiling Report", explorative=True)
     profile.to_notebook_iframe()
-    profile.to_file("profiling_report.html")'''
+    profile.to_file("profiling_report.html")
 
     # 2.3 Handle Missing and corrupted values
     # Check Missing values
